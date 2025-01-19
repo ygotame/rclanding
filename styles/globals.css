@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Bubblebody Neue';
+  src: url('/fonts/bubblebody-neue.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary: 337 91 79; /* #b10dc8 */
+  --secondary: 0 0 85; /* #d9d9d9 */
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #b10dc8 0%, #ff69b4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@layer base {
+  body {
+    font-family: 'Bubblebody Neue', sans-serif;
+  }
+}
+
