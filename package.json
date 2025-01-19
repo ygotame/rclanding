@@ -9,7 +9,7 @@
     "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out"
   },
-  "homepage": "https://yogtame.github.io/rclanding",
+  "homepage": "https://ygotame.github.io/rclanding",
 
   "dependencies": {
     "lucide-react": "^0.473.0",
